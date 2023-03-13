@@ -41,16 +41,23 @@ body {
 }
 
 .opening-left-weight {
-    font-size: 38pt;
+    font-size: 44pt;
     font-weight: bolder;
 }
 
 .opening-left-text {
     margin: 10px 0;
+    opacity: 70%;
+    font-size: 16pt;
 }
 
 .opening-right, .opening-right {
     flex: 1 0 50%;
+}
+
+.opening-right img {
+    width: 100%;
+    
 }
 
 .opening-right {
@@ -84,6 +91,7 @@ body {
 }
 
 .information-card {
+    align-self: baseline;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -99,6 +107,7 @@ body {
     border: 3px solid rgb(75, 133, 155);
     border-radius: 10px;
     padding: 10px;
+    background-color: rgb(17, 24, 24);
     min-width: 180px;
     min-height: 180px;
     max-width: 180px;
@@ -173,5 +182,5 @@ button:hover {
 .footer {
     text-align: center;
     background-color: lightblue;
-    padding: 30px;
+    padding: 20px;
 }

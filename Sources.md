@@ -9,3 +9,10 @@ https://unsplash.com/photos/PO0UHx-5mHo guille pozzi
 
 https://unsplash.com/photos/xvNYQ-VFErs Kristina Delp
 
+***
+whale facts
+https://www.fisheries.noaa.gov/species/sperm-whale#overview 
+
+https://a-z-animals.com/blog/how-fast-do-whales-swim/ 
+
+https://www.nhm.ac.uk/discover/quick-questions/how-long-can-whales-hold-their-breath.html 
