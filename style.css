@@ -4,6 +4,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display:flex;
     flex-direction: column;
+    background-color: rgb(38, 44, 58);
 }
 
 .header  {
@@ -26,11 +27,38 @@ body {
     gap: 10px;
 }
 
+.header > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
 .opening {
     background-color: lightblue;
     display: flex;
     padding: 80px 10%;
     justify-content: space-between;
+    gap: 40px;
+}
+
+.opening-left-weight {
+    font-size: 38pt;
+    font-weight: bolder;
+}
+
+.opening-left-text {
+    margin: 10px 0;
+}
+
+.opening-right, .opening-right {
+    flex: 1 0 50%;
+}
+
+.opening-right {
+    display: flex;
+    align-self: stretch;
+    background: rgb(179, 225, 240);
+    justify-content: center;
+    align-items: center;
 }
 
 .information {
@@ -38,6 +66,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin  : 0 10% 80px 10%;
+    color: white;
 }
 
 .information-title {
@@ -49,46 +78,81 @@ body {
 .information-cards {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
     text-align: center;
     flex-wrap: wrap;
-    flex: 1 0 auto;
 }
 
-.information-card > img {
+.information-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-subtext {
+    width: 200px;
+}
+
+.information-card img {
     border: 3px solid rgb(75, 133, 155);
     border-radius: 10px;
     padding: 10px;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 180px;
+    min-height: 180px;
+    max-width: 180px;
+    max-height: 180px;
+    width: 180px;
+    height: 180px;
+    flex: 1 0 100%;
+    margin-bottom: 20px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: lavender;
+    background-color: rgb(109, 109, 121);
     flex: 1;
-    padding: 100px 10%;
+    color: white;
+    padding: 100px 15%;
+    gap: 8px;
+}
+
+.quote-text {
+    font-family: cursive;
+    font-size: 21pt;
+}
+
+.quote-author {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: end;
+    font-size: 17pt;
+    font-weight: bolder;
+    padding-right: 40px;
 }
 
 .action {
     display: flex;
     justify-content: stretch;
     align-items: center;
-    background-color: white;
 }
 
 .action-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex: 1 1 0;
     background-color: skyblue;
     margin: 50px 10%;
     padding: 40px 10%;
+    border: 2px solid skyblue;
+    border-radius: 8px;
 }
 
-.action-container > button {
-
+.action-weight {
+    font-size: large;
+    font-weight: bolder;
 }
 
 button {
@@ -109,4 +173,5 @@ button:hover {
 .footer {
     text-align: center;
     background-color: lightblue;
+    padding: 30px;
 }
